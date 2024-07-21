@@ -1,0 +1,39 @@
+{
+  "name": "trackdownload",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "it": "npx tsx src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trautw/ddk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trautw/ddk/issues"
+  },
+  "homepage": "https://github.com/trautw/ddk#readme",
+  "devDependencies": {
+    "@types/raphael": "^2.3.9",
+    "@types/snapsvg": "^0.5.8",
+    "@types/svgdom": "^0.1.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.0",
+    "canvas": "^2.11.2",
+    "node-fetch": "^3.3.2",
+    "raphael": "^2.3.0",
+    "sharp": "^0.33.3",
+    "snapsvg": "^0.5.1",
+    "svg": "^0.1.0",
+    "svgdom": "^0.1.19"
+  }
+}
